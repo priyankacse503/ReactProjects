@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useContext, useState } from 'react';
 import './index.css';
 import { Route, Redirect } from 'react-router-dom';
@@ -78,6 +79,8 @@ function App() {
     </>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 import React from 'react';
 import { Redirect, Route, Switch, useHistory } from 'react-router-dom';
 import StartingPage from './pages/StartingPage';
@@ -435,13 +438,19 @@ export default App;
         </Container>
       </ThemeProvider>
     </div>
+<<<<<<< HEAD
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
   );
 }
 
 export default App;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 
 
 /*import logo from './logo.svg';
@@ -505,4 +514,7 @@ export default App;
 
 
 >>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
+<<<<<<< HEAD
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e

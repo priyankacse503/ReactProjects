@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React,{useState} from "react";
 
 const AuthContext=React.createContext({
@@ -32,6 +33,8 @@ export const AuthContextProvider=(props)=>{
             localStorage.removeItem('dataKey');
         },50000);
 =======
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 import React, { useState } from 'react';
 
 const AuthContext = React.createContext({
@@ -59,11 +62,15 @@ export const AuthContextProvider = (props) => {
             localStorage.removeItem('dataKey');
             sessionStorage.removeItem('email');
         },500000);
+<<<<<<< HEAD
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
         
     }
 
     const logoutHandler = () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
         setEmail(null)
         localStorage.removeItem('dataKey');        
@@ -72,6 +79,8 @@ export const AuthContextProvider = (props) => {
     const contextValue = {
         //token: token,
 =======
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
         settoken(null)
         setEmail(null);
         localStorage.removeItem('dataKey');   
@@ -80,6 +89,9 @@ export const AuthContextProvider = (props) => {
 
     const contextValue = {
         token: token,
+<<<<<<< HEAD
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
         email: email,
         isLoggedIn: userIsLoggedIn,
@@ -94,8 +106,12 @@ export const AuthContextProvider = (props) => {
     )
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 export default AuthContext;
 
+=======
+export default AuthContext;
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 =======
 export default AuthContext;
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e

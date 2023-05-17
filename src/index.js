@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import './index.css';
 import App from './App';
@@ -18,6 +19,8 @@ root.render(
     </AuthContextProvider>
 );
 =======
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
@@ -65,4 +68,7 @@ root.render(
 reportWebVitals();*/
 >>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
 
+<<<<<<< HEAD
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e

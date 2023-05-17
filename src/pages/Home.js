@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 import React from "react";
+<<<<<<< HEAD
 import { Button, Table, Col, Row, Container} from 'react-bootstrap';
 import { Route } from "react-router-dom";
 =======
 <<<<<<< HEAD
 import React from "react";
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 import { NavLink } from "react-router-dom";
 
 const Home=()=>{
@@ -20,11 +23,15 @@ const Home=()=>{
 export default Home;
 =======
 import React from 'react';
+<<<<<<< HEAD
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 
 const Home = () => {
     return (
         <>
+<<<<<<< HEAD
 <<<<<<< HEAD
             <Route path='/home/new-user'></Route>
 
@@ -99,6 +106,8 @@ const Home = () => {
 }
 export default Home;
 =======
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
           <h1 style={{ fontFamily: 'Fira Sans' , color:'green',paddingTop:'80px',textAlign:'center'}}>WELCOME TO EXPENSE TRACKER</h1>
         </>
     )
@@ -152,4 +161,7 @@ export default Home;
         </div>
     */
 >>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
+<<<<<<< HEAD
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e

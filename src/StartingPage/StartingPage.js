@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import classes from './StartingPage.module.css';
 
 const StartingPageContent = () => {
@@ -11,6 +12,8 @@ const StartingPageContent = () => {
 
 export default StartingPageContent;
 =======
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import { Badge, Button, Navbar } from 'react-bootstrap';
@@ -186,5 +189,9 @@ export default StartingPage;
                 </div>
             </nav>
             */}
+<<<<<<< HEAD
+        
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
         
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e

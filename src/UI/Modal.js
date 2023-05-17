@@ -23,7 +23,10 @@ const Modal=(props)=>{
             {ReactDOM.createPortal(<ModalOverlay>{props.children}</ModalOverlay>, portalElement)}
         </Fragment>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 =======
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
     )

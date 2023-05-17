@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "react-projects",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
 =======
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
   "name": "testingexpensetracker",
   "version": "0.1.0",
   "private": true,
@@ -41,6 +44,9 @@
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.9",
     "styled-theming": "^2.2.0",
+<<<<<<< HEAD
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
     "web-vitals": "^2.1.4"
   },

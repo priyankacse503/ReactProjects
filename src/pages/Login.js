@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useContext, useRef, useState } from "react";
 import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
@@ -101,6 +102,8 @@ const Login = (props) => {
 }
 export default Login;
 =======
+=======
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
 import React, { useState, useRef } from 'react';
 <<<<<<< HEAD
 import { Button } from 'react-bootstrap';
@@ -281,5 +284,9 @@ export default Login;
                     <Form.Label><i className="icon icon-key fa-solid fa-key">Password</i> </Form.Label>
                     <Form.Control type="password" placeholder="Enter password" ref={passwordRef} />
 >>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
+<<<<<<< HEAD
+                </Form.Group>*/
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+=======
                 </Form.Group>*/
 >>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
