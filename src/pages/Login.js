@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+<<<<<<< HEAD
 import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import { Link, useHistory } from 'react-router-dom';
@@ -15,6 +16,26 @@ const Login = () => {
     const history = useHistory();
     const dispatch=useDispatch();
     
+=======
+import { Button, InputGroup } from 'react-bootstrap';
+import Form from 'react-bootstrap/Form';
+import { Link, useHistory } from 'react-router-dom';
+//import AuthContext from '../Store/auth-context';
+import classes from './Signup.module.css';
+import { useDispatch } from 'react-redux';
+import { authactions } from '../Store/authReducer';
+
+const Login = () => {
+    const dispatch = useDispatch();
+
+    const [isLoading, setIsLoading] = useState(false);
+    // const authCtx = useContext(AuthContext);
+    const emailRef = useRef();
+    const passwordRef = useRef();
+    const history = useHistory();
+
+
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
     const submitHandler = (event) => {
         event.preventDefault();
 
@@ -55,11 +76,28 @@ const Login = () => {
                 console.log(data);
                 console.log("User has successfully Logged in");
                 console.log(data.idToken);
+<<<<<<< HEAD
+=======
+                // authCtx.login(data.idToken,enteredemail);
+                //dispatch(authactions.login(data.idToken,enteredemail));
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
                 dispatch(authactions.login({
                     token: data.idToken,
                     email: enteredemail
                 }));
+<<<<<<< HEAD
                 history.replace('/inbox');            
+=======
+                //authCtx.login(enteredemail);
+
+                if (data.displayName === '') {
+                    //<Redirect to='/loginScreen' /> 
+                    history.replace('/loginScreen');
+                }
+                else {
+                    history.replace('/updateDetails');
+                }
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
             })
                 .catch((err) => {
                     alert(err.message);
@@ -69,6 +107,7 @@ const Login = () => {
 
     return (
         <>
+<<<<<<< HEAD
         <div className={classes.top}>
             <form className={classes.form} >
                 <Form.Label>
@@ -92,6 +131,32 @@ const Login = () => {
                 </Form.Group>
             </form>
             <form className={classes.form1}><Link to='/signup'><Button className='button1' type="submit" variant='info'>Don't have an account? Sign Up</Button></Link></form>
+=======
+            <div className={classes.top}>
+            <form className={classes.form} >
+                <Form.Label>
+                    <h3 style={{ color: "blue" }}><strong>Login</strong></h3></Form.Label>
+
+                <InputGroup className="mb-3">
+                    <InputGroup.Text><i className="icon icon-envelope fa fa-fw fa-envelope mr-md-1"></i></InputGroup.Text>
+                    <Form.Control type="email" placeholder="Enter email" ref={emailRef} />
+                </InputGroup>
+
+                <InputGroup className="mb-3">
+                    <InputGroup.Text><i className="icon icon-key fa fa-key fa-fw" /></InputGroup.Text>
+                    <Form.Control type="password" placeholder="Enter password" ref={passwordRef} />
+                </InputGroup>
+
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Link to='/forgotpassword'>Forgot Password</Link>
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="formBasicButton">
+                    <Button type="submit" onClick={submitHandler}>Login</Button>
+                    {isLoading && <p>Sending request...</p>}
+                </Form.Group>
+            </form>
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
             </div>
         </>
     )
@@ -99,7 +164,18 @@ const Login = () => {
 
 export default Login;
 
+<<<<<<< HEAD
 /*
 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Link to='/forgotpassword'>Forgot Password</Link>
+=======
+/*<Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label><i className="icon icon-envelope fa fa-fw fa-envelope mr-md-1">Email</i> </Form.Label>
+                    <Form.Control type="email" placeholder="Enter email" ref={emailRef} />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Label><i className="icon icon-key fa-solid fa-key">Password</i> </Form.Label>
+                    <Form.Control type="password" placeholder="Enter password" ref={passwordRef} />
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
                 </Form.Group>*/

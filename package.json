@@ -8,12 +8,18 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
+<<<<<<< HEAD
     "draft-js": "^0.11.7",
+=======
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
     "react-bootstrap": "^2.7.3",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-draft-wysiwyg": "^1.15.0",
+=======
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
     "react-redux": "^8.0.5",
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",

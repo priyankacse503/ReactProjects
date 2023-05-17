@@ -28,6 +28,7 @@
   color: #61dafb;
 }
 
+<<<<<<< HEAD
 .App-editor {
   background-color: #282c34;
   min-height: 5vh;
@@ -41,6 +42,8 @@
   text-align: center;
   padding: 12px;
  }
+=======
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
