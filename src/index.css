@@ -1,0 +1,85 @@
+<<<<<<< HEAD
+=======
+body {
+  margin: 0;
+<<<<<<< HEAD
+  
+  background-color: #3f3f3f;
+=======
+  background-color: #3f3f3f;
+   
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
+  
+=======
+
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+<<<<<<< HEAD
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+  padding-top: 80px;
+}
+
+.header1{
+  padding: 40px;
+  font-size: 100px;
+}
+
+.li{
+  list-style-type: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #800040;
+  color: white;
+  border: 1px solid #800040;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+}
+
+button:hover,
+button:active {
+  background-color: #630032;
+  border-color: #630032;
+}
+=======
+<<<<<<< HEAD
+.li{
+  list-style-type: none;
+}
+=======
+.li {
+  list-style-type: none;
+}
+
+>>>>>>> b706e9927a4d058e3f39cef85c146b35266b6277
+>>>>>>> 97a1082f1d261c13bc016be799905917f2c4399e
